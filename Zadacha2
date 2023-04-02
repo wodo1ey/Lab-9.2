@@ -122,7 +122,6 @@ while True:
                         player_2.score_up()
                         print(f'В этом раунде победил {player_2.name}!')
                         break
-
             while True:
                 if player_1.cards_count() >= 21:
                     break
@@ -151,7 +150,6 @@ while True:
                 print(f'В этом раунде победил {player_2.name}!')
             elif 21 >= player_1.cards_count() > player_2.cards_count():
                 print(f'В этом раунде победил {player_1.name}!')
-
-            # BJ_deck.deck_info()
     else:
         print('Некорректный ввод. Введите 1 или 2')
+
